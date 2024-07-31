@@ -2,9 +2,14 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 ## Getting Started
 
-First, run the development server:
+First run
+
+npm install [install node modules package]
+
+cd into the lumamedia dir before you run the commands below
 
 ```bash
+
 npm run dev
 # or
 yarn dev
