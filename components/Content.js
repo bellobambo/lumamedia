@@ -3,10 +3,11 @@ import React from "react";
 const Content = () => {
   return (
     <div className="pt-12 px-24">
-      <span className="flex items-center justify-between">
-        <span className="font-bold text-[54px] w-[623px] leading-[65.35px] h-[130px]">
+      <span className="md:flex md:items-center md:justify-between sm:grid sm:grid-rows-4 sm:grid-flow-col sm:gap-4">
+        <span className="font-bold text-[36px] sm:text-[48px] md:text-[54px] lg:text-[60px] w-full sm:w-[623px] leading-tight sm:leading-[65.35px] h-auto sm:h-[130px]">
           Get Instant Access to Endless Entertainment.
         </span>
+
         <span className="items-center flex flex-col">
           <span className="bg-clip-text text-transparent bg-gradient-to-r from-[#5251F6] to-[#00FF99] font-bold text-[36px]">
             Welcome!

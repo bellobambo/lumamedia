@@ -2,28 +2,26 @@ import React from "react";
 
 const Navbar = () => {
   return (
-    <div className="text-white pt-12 px-24">
-      <div className="flex justify-between">
-        <div className="flex items-center">
+    <div className="text-white pt-6 px-6 sm:px-12 md:px-24 lg:px-32">
+      <div className="flex flex-col items-center sm:items-start sm:flex-row sm:justify-between">
+        <div className="flex items-center mb-4 sm:mb-0">
           <img
-            className="w-[62px] h-[62px] mr-2"
+            className="w-[48px] h-[48px] sm:w-[62px] sm:h-[62px] mr-2"
             src="/NetFlix.png"
             alt="NetFlix Logo"
           />
-          <span className="font-bold text-[32px] font-inter">
+          <span className="font-bold text-[24px] sm:text-[32px] font-inter">
             My Streaming Platform
           </span>
         </div>
-        <div className="flex items-center">
-          <div className="space-x-3 flex">
-            <button className="flex items-center py-2 border-[#353535] border-2 rounded-[15px] px-4 space-x-1">
-              <span>En</span>
-              <Arrow />
-            </button>
-            <button className="border-[#00FF99] py-2 border-2 rounded-[15px] px-8 font-normal text-[15px] text-[#FFFFFF]">
-              Login
-            </button>
-          </div>
+        <div className="flex items-center space-x-3 mt-4 sm:mt-0">
+          <button className="flex items-center py-2 border-[#353535] border-2 rounded-[10px] sm:rounded-[15px] px-3 sm:px-4 space-x-1 text-[12px] sm:text-[15px]">
+            <span>En</span>
+            <Arrow />
+          </button>
+          <button className="border-[#00FF99] py-2 border-2 rounded-[10px] sm:rounded-[15px] px-4 sm:px-8 font-normal text-[12px] sm:text-[15px] text-[#FFFFFF]">
+            Login
+          </button>
         </div>
       </div>
     </div>
